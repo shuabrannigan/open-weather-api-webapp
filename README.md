@@ -1,3 +1,3 @@
-### Application created with React
+## Application created with React
 
-## Project using Open Weather Api
+### Project using Open Weather Api
