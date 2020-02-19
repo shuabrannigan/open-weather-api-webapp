@@ -1,0 +1,19 @@
+/* GLOBAL CSS (FOR EM & REM USE) */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+
+    font-size: 18px;
+}
+
+.page-title {
+    font-size: 2em;
+    background-color: orange;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.page-title span {
+    color: white;
+}
+

@@ -1,0 +1,54 @@
+.tile-container {
+    border: 1px black solid;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 0.5rem 0.5rem;
+    display: inline;
+}
+
+.placeholder {
+    display: inline-block;
+    background-color: orange;
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem 0;
+}
+
+.info-container {
+    
+    /* border: 1px solid black; */
+    padding: 0.5rem 
+}
+
+.info-container h3 {
+    margin: 0.5rem;
+
+    font-size: 1rem;
+}
+
+h2.date {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.modal-btn {
+    cursor: pointer;
+    background-color:orange;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    padding: .8rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .tile-container {
+        width: 50%;
+    }
+}
