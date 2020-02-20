@@ -29,3 +29,11 @@
     cursor: pointer;
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+   .search-input {
+       border: 1px solid lightgrey;
+       border-radius: 0.5rem;
+       padding-left: 0.5rem;
+   }
+}
