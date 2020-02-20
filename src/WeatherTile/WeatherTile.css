@@ -15,6 +15,12 @@
     margin: 1rem 0;
 }
 
+.tile-container i {
+    display: inline-block;
+    font-size: 5rem;
+    color: orange;
+}
+
 .info-container {
     
     /* border: 1px solid black; */

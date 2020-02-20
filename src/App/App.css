@@ -2,8 +2,8 @@
 
 body {
   font-family: "Roboto Mono", monospace;
-
   font-size: 18px;
+  opacity: 0.85;
 }
 
 .page-title {

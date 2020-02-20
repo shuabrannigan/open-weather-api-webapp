@@ -1,6 +1,7 @@
 import React from "react";
 import "./WeatherTile.css";
 import Modal from "./Modal";
+import "./Icons/Css/weather-icons.min.css"; // Github icons https://github.com/erikflowers/weather-icons
 
 // Convert Kelvin to Celcius
 const k2c = temp => {
@@ -27,7 +28,8 @@ class WeatherTile extends React.Component {
   render() {
     return (
       <div className="tile-container">
-        {/* Date without the time conversion */}
+ 
+        
         <h2 className="date">
           {this.props.date
             .split(" ")
@@ -36,6 +38,8 @@ class WeatherTile extends React.Component {
             .reverse()
             .join(" ")}
         </h2>
+        {/* <div className="placeholder"></div> */}
+        <i className={"wi wi-owm-" + this.props.weather.id}></i>
         <div className="info-container">
           <h3>{"Current Temp"}</h3>
           <h3>{k2c(this.props.temp.temp) + " °C"}</h3>
