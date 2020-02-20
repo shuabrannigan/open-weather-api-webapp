@@ -38,7 +38,7 @@ class WeatherTile extends React.Component {
         </h2>
         <div className="info-container">
           <h3>{"Current Temp"}</h3>
-          <h3>{k2c(this.props.temp.temp) + " C"}</h3>
+          <h3>{k2c(this.props.temp.temp) + " °C"}</h3>
 
           <Modal
             temp={this.props.temp}
