@@ -25,8 +25,8 @@ class Modal extends React.Component {
         <div className="modal" id="modal">
           <div className="modal-content">
             <h1>More Information</h1>
-            <h2>{"Current Temp: " + k2c(this.props.temp.temp)}</h2>
-            <h2>{"Feels like: " + k2c(this.props.temp.feels_like)}</h2>
+            <h2>{"Current Temp: " + k2c(this.props.temp.temp) + " °C"}</h2>
+            <h2>{"Feels like: " + k2c(this.props.temp.feels_like) + " °C"}</h2>
             <h2>{"Humidity: " + this.props.temp.humidity + "%"}</h2>
             <h2>{"Weather: " + this.props.weather.description}</h2>
             <h2>
